@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-project-node",
+  "version": "1.0.0",
+  "description": "This is the node package for running the Portfolio-Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "MEAN",
+    "Mongo",
+    "Express",
+    "Angular",
+    "Nodejs"
+  ],
+  "author": "William",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
