@@ -5,8 +5,176 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102b25fe-89c2-495a-9e80-30ec03ea073d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NodeJS/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/email_functionality/email.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/HTML/contact-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/HTML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/close-up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/js/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/COMMITMENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/get_oauth_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-af.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-hy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-mn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-sr_latn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/src/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/src/OAuthTokenProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/src/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/src/POP3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/PHPMailer/src/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodeJS/express/forms/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/HTML/blog-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/HTML/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJS/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJS/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJS/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/counters-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/counters-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/hero-bg(old).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/overlay-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/overlay-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio-details-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/portfolio-details-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio-details-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/portfolio-details-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio-details-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/portfolio-details-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/post-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/post-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/post-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/post-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/post-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/post-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/testimonial-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/testimonial-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/testimonial-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/testimonial-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-1(old).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-2(old).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-3(old).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/img/work-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/scss/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/bootstrap-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/bootstrap-icons.json" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap-icons/bootstrap-icons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/glightbox/css/glightbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/glightbox/css/glightbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/glightbox/css/glightbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/glightbox/css/glightbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/glightbox/css/plyr.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/glightbox/css/plyr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/glightbox/css/plyr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/glightbox/css/plyr.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/glightbox/js/glightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/glightbox/js/glightbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/glightbox/js/glightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/glightbox/js/glightbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/php-email-form/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/php-email-form/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/purecounter/purecounter_vanilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/purecounter/purecounter_vanilla.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/swiper/swiper-bundle.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/swiper/swiper-bundle.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/swiper/swiper-bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/swiper/swiper-bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/swiper/swiper-bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/swiper/swiper-bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/typed.js/typed.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/typed.js/typed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/typed.js/typed.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/typed.js/typed.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/typed.js/typed.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/assets/vendor/typed.js/typed.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJS/express/forms/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/contact.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +187,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Kgc1WX8XdXDJGZaNA9VPTzdiZt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,11 +199,20 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/willi/Documents/Portfolio Project/Portfolio-Project/NodeJS/express/HTML&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\Documents\Portfolio Project\Portfolio-Project\NodeJS\express\HTML" />
+      <recent name="C:\Users\willi\Documents\Portfolio Project\Portfolio-Project\NodeJS\express\assets\vendor" />
+      <recent name="C:\Users\willi\Documents\Portfolio Project\Portfolio-Project\NodeJS\express\assets\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\Documents\Portfolio Project\Portfolio-Project\NodeJS" />
+      <recent name="C:\Users\willi\Documents\Portfolio Project\Portfolio-Project" />
+      <recent name="C:\Users\willi\Documents\Portfolio Project\Portfolio-Project\NodeJS\express" />
       <recent name="C:\Users\willi\Documents\Portfolio Project\Portfolio-Project\HTML" />
     </key>
   </component>
@@ -46,5 +226,11 @@
       <updated>1674399451559</updated>
     </task>
     <servers />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history>
+      <element expression="text/html" />
+    </find-history>
   </component>
 </project>
